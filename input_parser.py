@@ -128,7 +128,6 @@ with open('hashcode.in', 'r') as file:
 		streets = car.split()[1:]
 		cars_list.append(Car(no_of_streets, streets))
 
-
 	graph = Graph(connections, int(simulation.no_of_intersections), streets_list)
 
 
